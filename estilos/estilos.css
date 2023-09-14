@@ -1,0 +1,67 @@
+nav{
+    background-color: #50A171;
+}
+
+*{
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    background-color: #74C795;
+    margin: 40px;
+    padding: 40px;
+    width: 170px;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+}
+
+li a{
+    color: white;
+}
+
+.TextoCV{
+    background-color: #74C795;
+    width: 350px;
+    height: 40px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+img{
+    border-radius: 80px;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+footer{
+    background: #50A171;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 60px;
+}
+
+.TextoHeader{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
