@@ -1,52 +1,103 @@
 nav{
-    background-color: #50A171;
-}
-
-*{
-    margin: auto;
+    background-color: #225D7E;
+    padding: 30px;
+    left: 0;
 }
 
 ul{
     display: flex;
-    justify-content: center;
-}
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 35px;
+  }
 
 li{
-    background-color: #74C795;
-    margin: 40px;
-    padding: 40px;
-    width: 170px;
-    text-align: center;
-    display: flex;
-    font-size: 25px;
-}
-
-li a{
-    color: white;
-}
-
-.TextoCV{
-    background-color: #74C795;
-    width: 350px;
+    background-color: #5084A1;
+    width: 250px;
     height: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    }
+
+.TextoHeader{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 h1{
-    text-align: center;
+    background-color: #225D7E;
+    border-radius: 50px;
+    width: 360px;
+    height: 40px;
+}
+
+.TextoCV{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
     color: white;
-    margin-top: 30px;
+    text-align: center;
+}
+
+h2{
+    background-color: #5084A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.Subtitulo{
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    background-color: #225D7E;
+    border-radius: 55px;
+    padding: 40px;
+    width: 800px;
+    display: flex;
+    align-items: center;
 }
 
 img{
-    border-radius: 80px;
-    width: 250px;
-    height: 250px;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
 }
 
-
+.cajatxt{
+    font-size: large;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color:#5084A1;
+    width: 60%;
+    height: auto;
+    margin-left: 20px;
+}
 
 footer{
-    background: #50A171;
+    background: #225D7E;
+    color: white;
     height: auto;
     display: flex;
     align-items: center;
@@ -56,12 +107,6 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 60px;
+    padding: 15px;
+    left: 0;
 }
-
-.TextoHeader{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-}
-
