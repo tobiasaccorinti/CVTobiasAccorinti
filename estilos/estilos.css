@@ -2,6 +2,9 @@ nav{
     background-color: #225D7E;
     padding: 30px;
     left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 ul{
@@ -19,12 +22,15 @@ li{
     display: flex;
     justify-content: space-around;
     border-radius: 50px;
+    flex-wrap: wrap;
     }
 
 .TextoHeader{
     color: white;
     text-decoration: none;
     font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1{
@@ -32,6 +38,9 @@ h1{
     border-radius: 50px;
     width: 360px;
     height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .TextoCV{
@@ -40,6 +49,7 @@ h1{
     margin-top: 0;
     color: white;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 h2{
@@ -50,6 +60,7 @@ h2{
     width: 250px;
     height: 50px;
     border-radius: 50px;
+    flex-wrap: wrap;
 }
 
 .Subtitulo{
@@ -58,12 +69,14 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .contenedor{
@@ -73,12 +86,15 @@ main{
     width: 800px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 img{
     border-radius: 100%;
     width: 150px;
     height: 150px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cajatxt{
@@ -93,6 +109,7 @@ img{
     width: 60%;
     height: auto;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 footer{
@@ -109,4 +126,5 @@ footer{
     width: 100%;
     padding: 15px;
     left: 0;
+    flex-wrap: wrap;
 }
